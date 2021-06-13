@@ -3,9 +3,8 @@
 
 # Run local
 $ cd dynamic-network
-$ mkdir figures
 $ pip install -r requirements.txt
 $ python3 app.py
+$ python3 degreeDistribution.py
 # export in file
 $ python3 app.py > results.txt
-
